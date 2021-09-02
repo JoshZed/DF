@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Project1</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="container navbar fixed-top navbar-expand-md navbar-dark p-md-3">
+      <div class="container">
+        <a href="" class="navbar-brand"
+          ><img src="./images/small logo.png" alt="" width="200px"
+        /></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link text-white">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-white">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experts" class="nav-link text-white">EXPERTS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link text-white">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a href="#packages" class="nav-link text-white">PACKAGES</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-white">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of Nav Bar -->
+    <!-- begining of Carousel -->
+
+    <main>
+      <section class="container mb-5">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./images/beernfit.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="mb-5 carousel-caption">
+                <div class="d-grid gap-2 col-2">
+                  <button class="btn btn-primary" type="button">SIGN UP</button>
+                  <a
+                    class="btn btn-primary"
+                    href="https://youtu.be/LNyoNTGObb4"
+                    target="_blank"
+                    role="button"
+                    >INTRO-VIDEO</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./images/beer crunch2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="mb-5 carousel-caption">
+                <div class="d-grid gap-2 col-2">
+                  <button class="btn btn-primary" type="button">SIGN UP</button>
+                  <a
+                    class="btn btn-primary"
+                    href="https://youtu.be/LNyoNTGObb4"
+                    target="_blank"
+                    role="button"
+                    >INTRO VIDEO</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/pushups.png" class="d-block w-100" alt="..." />
+              <div class="mb-5 carousel-caption">
+                <div class="d-grid gap-2 col-2">
+                  <button class="btn btn-primary" type="button">SIGN UP</button>
+                  <a
+                    class="btn btn-primary"
+                    href="https://youtu.be/LNyoNTGObb4"
+                    target="_blank"
+                    role="button"
+                    >INTRO VIDEO</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <hr />
+      </section>
+
+      <!-- End of Carousel -->
+
+      <!-- first card section -->
+
+      <section class="container mb-5" id="services">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/beer leg kicks.jpg"
+                class="card-img-top"
+                alt="beer yoga"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Drink'N'Stretch</h5>
+                <p class="card-text">
+                  Get those stretches in and have a little buzz on while doing
+                  so. get loose the way the universe intended.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/beer crunch.jpg"
+                class="card-img-top"
+                alt="lady doing crunches"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Drink'N'Cardio</h5>
+                <p class="card-text">
+                  If your going to push yourself to do things like run, bike, or
+                  climb stairs, then you better get your drink on, and make it
+                  more tolerable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/push up martinin.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Drink'N'Strength</h5>
+                <p class="card-text">
+                  Don't you hate it when you've just finished doing a 100 push
+                  ups and you don't have any Gin around? DON'T WORRY! We got you
+                  covered.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of first card section -->
+      <!-- start of service Section -->
+
+      <section class="container w-75 mb-5">
+        <h3>Our Services</h3>
+        <hr class="short" />
+      </section>
+      <section class="container mb-5 w-75">
+        <div class="mx-auto myboxes row row-cols-1 row-cols-md-1 g-4">
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Meditation</h3>
+                  <p>WITH BEER</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/meditationthirst.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Strength Training</h3>
+                  <p>YOUR CHOICE OF DRINKS</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/power drinking.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Yoga</h3>
+                  <p>WITH WINE</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/yogaparty.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Beer-obics</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/beerstretch.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Advanced Yoga</h3>
+                  <p>YOUR CHOICE OF DRINKS</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/beerga.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="squares rounded-3">
+            <section class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+                  <h3>Rehab</h3>
+                  <p>NO DRINKS</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Alias quidem natus est minima corporis adipisci iure quae
+                    commodi vero earum ex omnis, nihil magni, repellat
+                  </p>
+                </div>
+                <div
+                  class="
+                    col-sm-12 col-md-6 col-lg-6
+                    pb-4
+                    mb-4
+                    order-1 order-md-2
+                  "
+                >
+                  <img
+                    src="./images/rehab and fit.png"
+                    alt=""
+                    class="d-block mx-auto"
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of Services -->
+      <!-- About US -->
+
+      <h3 id="about">About</h3>
+      <hr class="short" />
+      <section class="container mb-5 mt-5 w-75">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 my-auto order-2">
+            <h3 class="mb-5">Drink'N'Fit</h3>
+            <p>
+              Drink'N Fit is a responsive fitness application that allows
+              individuals to easily engage in fitness activities no matter where
+              they are. Drink'N Fit uses the habitual symbol of alcohol to sway
+              individuals into healthy activity by detouring the idea that you
+              need to give up on all your vices in order to peruse healthy
+              activity.
+            </p>
+            <button type="button" class="btn btn-primary pe-4 ps-4">
+              Get The App
+            </button>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 pb-4 mb-4 order-1 order-md-2">
+            <img
+              src="./images/smart-stuff.png"
+              alt=""
+              class="d-block mx-auto"
+              width="100%"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- end of about us -->
+      <!-- start of trained team/experts -->
+
+      <div class="container">
+        <h3 id="experts">Our Experts</h3>
+        <hr class="short" />
+      </div>
+
+      <section class="container d-md-block trainers mt-5 mb-5">
+        <div class="card-group">
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/gyguy4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Josh Zed</h5>
+              <h2>Founder</h2>
+              <p class="card-text">
+                Clearly, to run a gym this advanced, and ahead of its time, you
+                need an overlord with a clear vision.
+              </p>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/gymguy1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Joe Dude</h5>
+              <h2>Yoga Guy</h2>
+              <p class="card-text">
+                Every gym needs a creepy guy that looks at you when your not
+                looking, this is our guy.
+              </p>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/gyguy3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jim Duh</h5>
+              <h2>Aerobics Instructor</h2>
+              <p class="card-text">
+                An old fashioned out of date fitness trainer that seems to know
+                everything about nothing. He still uses races slang and pats
+                people on the butt.
+              </p>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/gyguy2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pop-eye</h5>
+              <h2>Strength Training</h2>
+              <p class="card-text">
+                This guy will work you half to death, but if you live, He hands
+                out whiskey like there's no tomorrow. For some, that take the
+                class, there will be no tomorrow.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of trained Team -->
+      <!-- Gallery -->
+
+      <section class="container w-75">
+        <h3 id="gallery" class="text-white">Gallery</h3>
+        <hr class="short" />
+      </section>
+      <section class="container w-75 mt-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="./images/yoga wine@2x.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="./images/push up martinin@2x.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="./images/machines-91849_1920.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="./images/active-athletes-barbell-2204196.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="./images/beer and push ups.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+
+            <img
+              src="./images/beer leg kicks.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- End of Gallery -->
+
+      <!-- start of packages -->
+
+      <section class="container w-75">
+        <h3 id="packages" class="text-white">Packages</h3>
+        <hr class="short" />
+      </section>
+
+      <section class="container trainers d-md-block mb-5 mt-5">
+        <div class="card-group">
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/1st.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Drink 'N' Fit</h5>
+              <p class="card-text mb-5">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <a href="#!" class="btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/third.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Extra</h5>
+              <p class="card-text mb-5">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <a href="#!" class="btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img src="./images/second.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Brutal</h5>
+              <p class="card-text mb-5">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <a href="#!" class="btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+          <div class="card mx-3 mb-5 mt-5 rounded-3">
+            <img
+              src="./images/beer and fit.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Death</h5>
+              <p class="card-text mb-5">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <a href="#!" class="btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End of Packages -->
+      <!-- start of Contact -->
+
+      <section class="container mb-5 w-75">
+        <h3 id="contact" class="text-white">Contact</h3>
+        <hr class="short" />
+      </section>
+      <section class="container-sm w-50 mt-sm-5">
+        <form id="contact-form" method="post" action="contact.php" role="form">
+          <div class="messages"></div>
+
+          <div class="controls">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="text-light" for="form_name">Firstname *</label>
+                  <input
+                    id="form_name"
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Please enter your firstname *"
+                    required="required"
+                    data-error="Firstname is required."
+                  />
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="text-light" for="form_lastname"
+                    >Lastname *</label
+                  >
+                  <input
+                    id="form_lastname"
+                    type="text"
+                    name="surname"
+                    class="form-control"
+                    placeholder="Please enter your lastname *"
+                    required="required"
+                    data-error="Lastname is required."
+                  />
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="text-light" for="form_email">Email *</label>
+                  <input
+                    id="form_email"
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Please enter your email *"
+                    required="required"
+                    data-error="Valid email is required."
+                  />
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="text-light" for="form_need"
+                    >Please specify your need *</label
+                  >
+                  <select
+                    id="form_need"
+                    name="need"
+                    class="form-control"
+                    required="required"
+                    data-error="Please specify your need."
+                  >
+                    <option value=""></option>
+                    <option value="Request quotation">Request quotation</option>
+                    <option value="Request order status">
+                      Request order status
+                    </option>
+                    <option value="Request copy of an invoice">
+                      Request copy of an invoice
+                    </option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label class="text-light" for="form_message">Message *</label>
+                  <textarea
+                    id="form_message"
+                    name="message"
+                    class="form-control"
+                    placeholder="Message for me *"
+                    rows="4"
+                    required="required"
+                    data-error="Please, leave us a message."
+                  ></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-12 mt-3">
+                <input
+                  type="submit"
+                  class="btn btn-primary btn-send"
+                  value="Send message"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- End of contact -->
+
+      <footer class="container mt-5 text-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div
+          class="text-center rounded-3 p-5"
+          style="background-color: rgba(194, 13, 226, 0.966)"
+        >
+          © 2021 Copyright:
+          <a
+            class="text-white"
+            href="https://www.youtube.com/user/FoolhardyPhotography"
+            target="_blank"
+            >FOOLHARDYPHOTOGRAPHY</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
